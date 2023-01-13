@@ -32,7 +32,7 @@ async def display_updater(id, display, config):
     image_version = None
     init = 0
     while True:
-        serverURL = 'http://' + username + ':' + password + '@10.21.21.8:' + str(RCPport)
+        serverURL = 'http://' + username + ':' + password + '@jiashan.ddns.us:' + str(RCPport)
         host=RPCHost(serverURL)
         result = host.call('getblockcount')
         if result != init:
