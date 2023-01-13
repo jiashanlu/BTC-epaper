@@ -1,0 +1,9 @@
+pillow
+requests
+pytz
+Babel
+python-dateutil
+aiohttp
+click
+cryptocompare
+pathlib
